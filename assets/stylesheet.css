@@ -32,6 +32,13 @@ body {
     margin-left: 800px;
 }
 
+.SEARCHLOCATION {
+    margin-bottom: 90px;
+}
+
+.content-title2 {
+    font-size: 50px;
+}
 
 @import url("https://fonts.googleapis.com/css?family=Hina+Mincho:400");
 
