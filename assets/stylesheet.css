@@ -5,7 +5,7 @@ body {
 }
 
 .banner {
-    background-image: url("/projectAvengers/images/pennywise.jpg");
+    background-image: url("./images/pennywise.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; 
@@ -20,14 +20,7 @@ body {
     margin-bottom: 30px;
 }
 
-.title {
-    margin: 0;
-    position: absolute;
-    top: 24%; 
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    margin-right: -300;
-}
+
 
 .banner h1 {
     color: brown;
@@ -39,52 +32,9 @@ body {
     margin-left: 800px;
 }
 
-.banner form {
-    padding: 20px;
-}
-
-.navBar {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin-bottom: 40px;
-}   
-
-.navBar a {
-    position: relative;
-    font-size: 50px;
-    color: rgb(170, 15, 46);
-    font-weight: bold;
-    transition-duration: 500ms;
-
-
-}   
-
-.navBar a:hover {
-   
-    text-shadow: 0 0 15px #fceb04;
-}
-
-.banner h1:hover {
-    text-shadow: 0 0 15px #ffee10;
-   
-}
 
 @import url("https://fonts.googleapis.com/css?family=Hina+Mincho:400");
 
-.desktop-1 {
-    align-items: center;
-    background-color: rgb(53, 1, 11);
-    border: 1px none;
-    display: flex;
-    flex-direction: column;
-    height: 300px;
-    overflow: hidden;
-    width: 100%;
-    color: azure;
-    text-align: center;
-    font-size: 50px;
-}
 
 .posters-1 {
     text-align: center;
@@ -132,7 +82,7 @@ body {
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: brown;
-    font-size: 40px;
+    font-size: 90px;
     font-weight: bold;
 }
 
