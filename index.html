@@ -7,7 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="assets/stylesheet.css">
+
+    <link rel="stylesheet" href="./assets/stylesheet.css">
+
+
 
     <!-- Favicon and title -->
     <link rel="icon" href="path/to/fav.png">
@@ -21,9 +24,7 @@
     <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon.min.css" rel="stylesheet" />
     Learn more: https://www.gethalfmoon.com/docs/customize/#notes-on-browser-compatibility
   -->
-
-    <link rel="stylesheet" type="text/css" href="assets/slick.css" />
-
+    <link rel="stylesheet" type="text/css" href="./assets/slick.css" />
 
 
 
@@ -44,9 +45,7 @@
 
             <!-- Navbar brand -->
             <a href="#" class="navbar-brand">
-
                 Horror Film Depot
-
             </a>
         </nav>
         <!-- Navbar end -->
@@ -61,11 +60,85 @@
       -->
             <div class="banner">
 
-                <form>
-                    <input type="text" class="form-control">
-                    <button class="btn btn-success" type="button">Search</button>
+                <form class="SEARCHLOCATION">
+                    <input type="text" id="movie" class="form-control bg-dark">
+                    <button class="btn btn-success" id="search-btn" type="button">FIND A HORROR FILM</button>
+
 
                 </form>
+
+            </div>
+            <div class="content">
+                <h1 class="content-title font-size-22">
+                    <!-- font-size-22 = font-size: 2.2rem (22px) -->
+                    Search for all your favorite horror films.
+                </h1>
+
+                <div class="autoplay">
+                    <img src=".\assets\images\A_Nightmare_on_Elm_Street_(1984)_theatrical_poster.jpg">
+
+                    <img src=".\assets\images\Aliens_poster.jpg">
+
+                    <img src=".\assets\images\Bram_Stoker's_Draula_(1992_film).jpg">
+
+                    <img src=".\assets\images\Candymanposter.jpg">
+
+                    <img src=".\assets\images\Childs_Play.jpg">
+                    
+                    <img src=".\assets\images\ChristinePoster.jpg">
+                    <img src=".\assets\images\Conjuring_poster.jpg">
+                    <img src=".\assets\images\CreepshowPoster.jpg">
+
+                    <img src=".\assets\images\CujoVHScover.jpg">
+                    <img 
+
+                    src=".\assets\images\Friday_the_13th_(1980)_theatrical_poster.jpg">
+
+                    <img src=".\assets\images\Fright_night_poster.jpg">
+
+                    <img 
+                    src=".\assets\images\Get_Out_poster.jpg">
+
+                    <img src=".\assets\images\Hereditary.png">
+
+                    <img src=".\assets\images\It_(2017)_poster.jpg">
+
+                    <img src=".\assets\images\It_Follows_(poster).jpg">
+
+                    <img src=".\assets\images\Lost_boys.jpg">
+
+                    <img src=".\assets\images\Neardarktheatposter.jpg">
+
+                    <img src=".\assets\images\NightoftheCometPoster.jpg">
+
+                    <img src=".\assets\images\Notld1990.jpg">
+
+                    <img src=".\assets\images\Predator_Movie.jpg">
+                
+
+                <img src=".\assets\images\Pumpkinhead.jpg">
+                
+
+                <img src=".\assets\images\Predator_Movie.jpg">
+                
+
+                <img src=".\assets\images\Serpentandtherainbow.png">
+                
+
+                <img src=".\assets\images\Sleepwalkers.jpg">
+                
+
+                <img src=".\assets\images\The_Hitcher_(2007)_Poster.jpg">
+               
+
+                <img src=".\assets\images\The_Ritual_UK_poster.png">
+               
+
+                <img src=".\assets\images\The_Witch_poster.png">
+               
+
+                <img src=".\assets\images\TheFog.1980TheatricalPoster.jpg">
+               
 
 
 
@@ -80,39 +153,24 @@
             </div>
             <!-- Then another content container -->
             <div class="content">
-                <h2 class="content-title">
-                    Content title
-                    <a href="#">#</a>
+                <h2 class="content-title2">
+                    WIKI Section
+                   
                 </h2>
-                ...
+                <p id="wiki-info">
+
+                </p>
+
             </div>
 
-            <div class="carousel">
-                <img src="./assets/images/Aliens_poster.jpg" />
-
-                <img src="./assets/images/Blair_Witch_Project.jpg" />
-
-                <img src="./assets/images/Bram_Stoker's_Draula_(1992_film).jpg" />
-
-                <img src="./assets/images/Candymanposter.jpg" />
-
-                <img src="./assets/images/Childs_Play.jpg" />
-
-                <img src="./assets/images/ChristinePoster.jpg" />
-
-
-                <img src="./assets/images/Conjuring_poster.jpg" />
-
-                <img src="./assets/images/CreepshowPoster.jpg" />
-
-                <img src="./assets/images/Friday_the_13th_(1980)_theatrical_poster.jpg" />
-
-                <img src="./assets/images/Candymanposter.jpg" />
-
-                <img src="./assets/images/Childs_Play.jpg" />
-
-                <img src="./assets/images/ChristinePoster.jpg" />
+            <div class="card">
+                <h2 class="" card-title">
+                    FAVE HORROR FILMS
+                </h2>
             </div>
+
+
+
 
             <!-- Then another card -->
             <div class="card">
@@ -126,35 +184,21 @@
                 ...
             </div>
         </div>
+
         <!-- Content wrapper end -->
 
     </div>
     <!-- Page wrapper end -->
 
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
+        integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="./assets/slick.min.js"></script>
+
     <!-- Halfmoon JS -->
     <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
 
-
-    <script type="text/javascript" src="assets/slick.min.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <button onclick="scrollToTop()">
-        Click to scroll to top
-    </button>
-
+    <script src="./assets/script.js"></script>
 </body>
 
 </html>
