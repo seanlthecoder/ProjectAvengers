@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="assets/stylesheet.css">
+    <link rel="stylesheet" href="./assets/slick.css">
 
     <!-- Favicon and title -->
-    <link rel="icon" href="path/to/fav.png">
+    <!-- <link rel="icon" href="./path/to/fav.png"> -->
     <title>Horror Film Depot</title>
 
     <!-- Halfmoon CSS -->
@@ -22,7 +22,7 @@
     Learn more: https://www.gethalfmoon.com/docs/customize/#notes-on-browser-compatibility
   -->
 
-    <link rel="stylesheet" type="text/css" href="assets/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/stylesheet.css" />
 
 
 
@@ -62,8 +62,8 @@
             <div class="banner">
 
                 <form>
-                    <input type="text" class="form-control">
-                    <button class="btn btn-success" type="button">Search</button>
+                    <input type="text" class="form-control" id="searchTerms" placeholder="Search...">
+                    <button class="btn btn-success" type="button" id="searchButton">Search</button>
 
                 </form>
 
@@ -73,58 +73,26 @@
             </div>
             <!-- Next comes a card -->
             <div class="card">
-                <h2 class="card-title">
-                    Card title
+                <h2 class="card-title" >
+                    Movie
                 </h2>
-                ...
+                <h3  id="card-title-1"></h3>
             </div>
             <!-- Then another content container -->
             <div class="content">
-                <h2 class="content-title">
-                    Content title
-                    <a href="#">#</a>
+                <h2 class="content-title" >
+                    Description
                 </h2>
-                ...
+                <h3 id="content-title-1"></h3>
             </div>
-
-            <div class="carousel">
-                <img src="./assets/images/Aliens_poster.jpg" />
-
-                <img src="./assets/images/Blair_Witch_Project.jpg" />
-
-                <img src="./assets/images/Bram_Stoker's_Draula_(1992_film).jpg" />
-
-                <img src="./assets/images/Candymanposter.jpg" />
-
-                <img src="./assets/images/Childs_Play.jpg" />
-
-                <img src="./assets/images/ChristinePoster.jpg" />
-
-
-                <img src="./assets/images/Conjuring_poster.jpg" />
-
-                <img src="./assets/images/CreepshowPoster.jpg" />
-
-                <img src="./assets/images/Friday_the_13th_(1980)_theatrical_poster.jpg" />
-
-                <img src="./assets/images/Candymanposter.jpg" />
-
-                <img src="./assets/images/Childs_Play.jpg" />
-
-                <img src="./assets/images/ChristinePoster.jpg" />
-            </div>
-
             <!-- Then another card -->
             <div class="card">
                 <h2 class="card-title">
-                    Card title
+                    Wikipedia
                 </h2>
-                ...
+                <h3 id="wiki-info"></h3>
             </div>
             <!-- Finally ending with a content container (without title) -->
-            <div class="content">
-                ...
-            </div>
         </div>
         <!-- Content wrapper end -->
 
@@ -132,11 +100,11 @@
     <!-- Page wrapper end -->
 
     <!-- Halfmoon JS -->
-    <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
 
 
-    <script type="text/javascript" src="assets/slick.min.js"></script>
-
+    <script type="text/javascript" src="./assets/slick.min.js"></script> -->
+    <script src="./assets/script.js"></script>
 
 
 
