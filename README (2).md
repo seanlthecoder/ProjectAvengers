@@ -1,0 +1,54 @@
+
+#Horror Film Site
+
+
+
+
+## Acceptance Criteria
+
+
+
+
+
+
+## Authors
+
+- [@seanlthecoder](https://github.com/seanlthecoder)
+- [@davidrose23] (https://github.com/davidrose23)
+- [@kyleroff112] (https://github.com/kyleroff112)
+
+
+
+
+
+
+
+## Table of Contents
+* [Technologies](#technologies)
+* [basic info](#basic-info)
+
+
+
+
+
+
+## Technologies
+
+This code was refactored using:
+- Visual Studio Code
+  Version: 1.72.1
+- HTML
+- Javascript
+- CSS
+
+
+
+
+## basic info
+
+Utilizing primarily Javascript along with HTML and CSS, I was able to construct a website that can be used to search for horror films.
+
+Using javascripts concepts like event listeners, arrays, functions and variables, we were able to successfully
+piece together code that effectively meets the acceptance criteria.
+
+
