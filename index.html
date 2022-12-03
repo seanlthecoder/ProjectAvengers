@@ -61,20 +61,31 @@
             <div class="banner">
 
                 <form class="SEARCHLOCATION">
-                    <input type="text" id="movie" class="form-control bg-dark">
-                    <button class="btn btn-success" id="search-btn" type="button">FIND A HORROR FILM</button>
+                    <input type="text" id="searchTerms" class="form-control bg-dark">
+                    <button class="btn btn-success" id="searchButton" type="button">FIND A HORROR FILM</button>
 
 
                 </form>
 
             </div>
             <div class="content">
-                <h1 class="content-title font-size-22">
+                <h1 id="movie-title-1" class="content-title font-size-22">
                     <!-- font-size-22 = font-size: 2.2rem (22px) -->
                     Search for all your favorite horror films.
                 </h1>
 
-                <div class="autoplay">
+
+            <!-- Next comes a card -->
+            <div class="card">
+                <h2 id="movie-description-1" class="card-title"></h2>
+            </div>
+            <!-- Then another content container -->
+            <div class="content">
+                <p id="wiki-info"></p>
+           <div id="poster" style="max-width: 20%; max-height: auto; margin: auto;"></div>
+            </div>
+            
+                <div id="autoplay" class="autoplay">
                     <img src=".\assets\images\A_Nightmare_on_Elm_Street_(1984)_theatrical_poster.jpg">
 
                     <img src=".\assets\images\Aliens_poster.jpg">
@@ -86,18 +97,18 @@
                     <img src=".\assets\images\Childs_Play.jpg">
                     
                     <img src=".\assets\images\ChristinePoster.jpg">
+
                     <img src=".\assets\images\Conjuring_poster.jpg">
+
                     <img src=".\assets\images\CreepshowPoster.jpg">
 
                     <img src=".\assets\images\CujoVHScover.jpg">
-                    <img 
 
-                    src=".\assets\images\Friday_the_13th_(1980)_theatrical_poster.jpg">
+                    <img src=".\assets\images\Friday_the_13th_(1980)_theatrical_poster.jpg">
 
                     <img src=".\assets\images\Fright_night_poster.jpg">
 
-                    <img 
-                    src=".\assets\images\Get_Out_poster.jpg">
+                    <img src=".\assets\images\Get_Out_poster.jpg">
 
                     <img src=".\assets\images\Hereditary.png">
 
@@ -138,50 +149,7 @@
                
 
                 <img src=".\assets\images\TheFog.1980TheatricalPoster.jpg">
-               
 
-
-
-
-            </div>
-            <!-- Next comes a card -->
-            <div class="card">
-                <h2 class="card-title">
-                    Card title
-                </h2>
-                ...
-            </div>
-            <!-- Then another content container -->
-            <div class="content">
-                <h2 class="content-title2">
-                    WIKI Section
-                   
-                </h2>
-                <p id="wiki-info">
-
-                </p>
-
-            </div>
-
-            <div class="card">
-                <h2 class="" card-title">
-                    FAVE HORROR FILMS
-                </h2>
-            </div>
-
-
-
-
-            <!-- Then another card -->
-            <div class="card">
-                <h2 class="card-title">
-                    Card title
-                </h2>
-                ...
-            </div>
-            <!-- Finally ending with a content container (without title) -->
-            <div class="content">
-                ...
             </div>
         </div>
 
