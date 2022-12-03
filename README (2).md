@@ -1,10 +1,14 @@
 
-#Horror Film Site
+#Horror Film Depot
 
 
 
 
-## Acceptance Criteria
+## Acceptance Criteria.
+
+Given a site vistor wants to search for a horror film
+When they land on the site, they type in the name of the horror film
+Then information about the film displays on the page.
 
 
 
@@ -46,9 +50,8 @@ This code was refactored using:
 
 ## basic info
 
-Utilizing primarily Javascript along with HTML and CSS, I was able to construct a website that can be used to search for horror films.
+Utilizing primarily Javascript along with HTML and CSS, we were able to construct a website that can be used primarily to search for horror films.
 
-Using javascripts concepts like event listeners, arrays, functions and variables, we were able to successfully
-piece together code that effectively meets the acceptance criteria.
+
 
 
